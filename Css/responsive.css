@@ -1,82 +1,80 @@
-@media (max-width:1030px){
-    nav .nav-search{
-        display: none;
-    }
-    footer,.copyright-footer{
-        flex-direction: column;
-        row-gap: 20px;
-    }
-    nav .nav-btn i{
-        display: block;
-    }
-    .card{
-        width: 280px;
-        height: 219px;
-
-    }
-    .designs{
-        padding: 3.4rem 1.2rem;
-    }
-
+@media (max-width: 1030px) {
+  nav .nav-search {
+    display: none;
+  }
+  footer,
+  .copyright-footer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  nav .nav-btn i {
+    display: block;
+  }
+  .card {
+    width: 280px;
+    height: 219px;
+  }
+  .designs {
+    padding: 3.4rem 1.2rem;
+  }
 }
-@media (max-width:768px){
-    .nav-link ul{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        gap: 3rem;
-        border-top: 1px solid #e7e7e9;
-        top: 100px;
-        left: 0;
-        padding: 2.5rem;
-        background-color: #fff;
-        z-index: 3;
+@media (max-width: 768px) {
+  .nav-link ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    gap: 3rem;
+    border-top: 1px solid #e7e7e9;
+    top: 100px;
+    left: 0;
+    padding: 2.5rem;
+    background-color: #fff;
+    z-index: 3;
+  }
 
-    }
-    
-    .nav-link li+li{
-        padding-top: 1rem;
-        border-top: 1px solid #e7e7e9;
-    }
-    .hamburger i{
-        display: block;
-    }
-    .hero-section h1{
-        font-size: 3rem;
-    }
-    .hero-section p{
-        font-size: 1.12rem;
-    }
-    .designs h2{
-        font-size: 35px;
-    }
+  .nav-link li + li {
+    padding-top: 1rem;
+    border-top: 1px solid #e7e7e9;
+  }
+  .hamburger i {
+    display: block;
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+  }
+  .hero-section p {
+    font-size: 1.12rem;
+  }
+  .designs h2 {
+    font-size: 35px;
+  }
 
-    .item{
-        height: 275px;
-        width: 222px;
-    }
-    nav i{
-        padding-right: 2rem ;
-    }
-    
-    nav{
-        justify-content: space-between;
-    }
-    nav .nav-btn button:nth-child(2){
-        display: none;
-    }
-    .designs{
-        padding: 0px 20px;
-    }
-    .card{
-        height: 400px;
-        width: 630px;
-    }
-    .dropdown{
-        display: block;
-        top: 200px;
-        right: 0;
-    }
+  .item {
+    height: 275px;
+    width: 222px;
+  }
+  nav i {
+    padding-right: 2rem;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+  nav .nav-btn button:nth-child(2) {
+    display: none;
+  }
+  .designs {
+    padding: 0px 20px;
+  }
+  .card {
+    height: 400px;
+    width: 630px;
+  }
+  .dropdown {
+    display: block;
+    top: 200px;
+    right: 0;
+  }
 }

@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -29,7 +29,7 @@ nav {
 .nav-logo {
   width: 30%;
 }
- .hamburger i{
+.hamburger i {
   font-size: 1.4rem;
   display: none;
 }
@@ -380,13 +380,12 @@ footer i {
   font-size: 14px;
   flex-wrap: wrap;
 }
-.close-btn{
+.close-btn {
   display: none;
 }
-.menu-open .nav-link ul{
+.menu-open .nav-link ul {
   display: flex;
 }
-.menu-close .close-btn{
+.menu-close .close-btn {
   display: flex;
 }
-
