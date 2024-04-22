@@ -19,7 +19,12 @@
     <div class="container">
         <header class="container">
             <nav class="d-flex">
-                <i class="fa-solid fa-bars-staggered" id="toggle"></i>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars-staggered" id="toggle"></i>
+                </div>
+                <div class="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
                 <div class="navlogo">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="88" height="30" viewBox="0 0 210 59" fill="none"
@@ -41,7 +46,7 @@
                                 <p>The #1 job board for design talent</p>
                             </div>
                         </li>
-                        <li><a href="#">Inspiration</a></li>
+                        <li><a href="#inspiration">Inspiration</a></li>
                         <li>
                             <a href="#">Courses <i class="fa-solid fa-chevron-down"></i></a>
                             <div class="dropdown">
@@ -256,7 +261,7 @@
             </div>
         </div>
 
-        <div class="designs">
+        <div class="designs" id="inspiration">
             <h2>Explore inspiring designs</h2>
             <div class="cards d-flex">
                 <div class="card">
@@ -604,7 +609,7 @@
             <li><a href="#">Resources</a></li>
         </ul>
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

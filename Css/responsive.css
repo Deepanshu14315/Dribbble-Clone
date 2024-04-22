@@ -20,12 +20,28 @@
 
 }
 @media (max-width:768px){
-    nav .nav-link ul{
+    .nav-link ul{
         display: none;
         flex-direction: column;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        gap: 3rem;
+        border-top: 1px solid #e7e7e9;
+        top: 100px;
+        left: 0;
+        padding: 2.5rem;
+        background-color: #fff;
+        z-index: 3;
+
     }
-    .fa-bars-staggered{
-        visibility: visible;
+    
+    .nav-link li+li{
+        padding-top: 1rem;
+        border-top: 1px solid #e7e7e9;
+    }
+    .hamburger i{
+        display: block;
     }
     .hero-section h1{
         font-size: 3rem;
@@ -57,5 +73,10 @@
     .card{
         height: 400px;
         width: 630px;
+    }
+    .dropdown{
+        display: block;
+        top: 200px;
+        right: 0;
     }
 }
