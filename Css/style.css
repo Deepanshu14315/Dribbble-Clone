@@ -386,6 +386,10 @@ footer i {
 .menu-open .nav-link ul {
   display: flex;
 }
+.menu-close .hamburger i{
+  display: none;
+}
 .menu-close .close-btn {
-  display: flex;
+  display: block;
+  font-size: 1.5rem;
 }

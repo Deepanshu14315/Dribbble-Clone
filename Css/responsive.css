@@ -27,16 +27,16 @@
     width: 100%;
     gap: 3rem;
     border-top: 1px solid #e7e7e9;
-    top: 100px;
+    top: 80px;
     left: 0;
-    padding: 2.5rem;
+    font-size: 1rem;
+    padding: 1.2rem;
     background-color: #fff;
     z-index: 3;
+    position: fixed;
   }
-
   .nav-link li + li {
     padding-top: 1rem;
-    border-top: 1px solid #e7e7e9;
   }
   .hamburger i {
     display: block;
@@ -50,7 +50,6 @@
   .designs h2 {
     font-size: 35px;
   }
-
   .item {
     height: 275px;
     width: 222px;
@@ -58,9 +57,9 @@
   nav i {
     padding-right: 2rem;
   }
-
   nav {
     justify-content: space-between;
+    padding: 1.25rem 0.85rem;
   }
   nav .nav-btn button:nth-child(2) {
     display: none;
@@ -74,7 +73,14 @@
   }
   .dropdown {
     display: block;
-    top: 200px;
-    right: 0;
+    top: 300px;
+    right: 0px;
+    font-size: 0.85rem;
+  }
+  .bgwhite nav{
+    background-color: #fff;
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
   }
 }
